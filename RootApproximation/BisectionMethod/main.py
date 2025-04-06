@@ -12,6 +12,5 @@ if __name__ == "__main__":
     #pass the function and the interval [a, b] here
     # Example: interval [3, 4]
     biseccion = BisectionMethod(function=f, a=3, b=4)
-    raiz = biseccion.solve()
-    print("Root:", raiz)
-    print("Sumary:", biseccion.summary())
+    biseccion.solve()
+    
