@@ -25,8 +25,9 @@ Each algorithm will be organized in its own module and accompanied by:
 ## ✅ Completed Methods
 
 | Method Category   | Implemented          | Status   |
-|------------------|----------------------|----------|
+|-------------------|----------------------|----------|
 | Root Finding      | Bisection Method     | ✅ Ready |
+| Root Finding      | Newton-Raphson       | ✅ Ready |
 | Interpolation     | Coming Soon          | 🕐       |
 | Integration       | Coming Soon          | 🕐       |
 | Linear Systems    | Coming Soon          | 🕐       |
@@ -41,6 +42,11 @@ numerical-methods-python/
 ├── RootApproximation/
 ├── ├── BisectionMethod
 │       ├── bisecction_class.py
+│       ├── main.py
+│       ├── requirements.txt
+├── ├── NewtonRapson
+│       ├── newtonraphson_class.py
+│       ├── derivation_class.py
 │       ├── main.py
 │       ├── requirements.txt
 │   ├── .gitignore
@@ -83,6 +89,17 @@ This makes it easy to follow the step-by-step convergence of the method.
 <p align="center">
   <img src="./assets/bisecction_tabulation.png" alt="UI Screenshot 2" width="90%" />
 </p>
+
+## 🎓 Ideal For
+- University-level numerical analysis courses
+
+- Self-learners exploring applied math
+
+- Developers needing reference implementations
+
+- Interactive teaching and visual explanation
+
+
 
 ## 🤝 Contributing
 This repository is evolving one method at a time. Feel free to open issues or pull requests to propose new features, improvements, or additional numerical methods.
