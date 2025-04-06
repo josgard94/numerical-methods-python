@@ -60,6 +60,30 @@ And execute using:
 python3 main.py
 ```
 
+## 📊 Iteration Table (Tabulated Output)
+This project includes built-in support for printing a tabulated summary of each iteration performed during the execution of the Bisection Method.
+
+The table includes values such as:
+
+Interval endpoints a and b
+
+Function evaluations f(a), f(b)
+
+Midpoint c = (a + b)/2
+
+Function value at the midpoint f(c)
+
+Which endpoint was updated
+
+The size of the interval after each iteration
+
+This makes it easy to follow the step-by-step convergence of the method.
+
+## 🖥️ Tabulated Output Example
+<p align="center">
+  <img src="./assets/bisecction_tabulation.png" alt="UI Screenshot 2" width="90%" />
+</p>
+
 ## 🤝 Contributing
 This repository is evolving one method at a time. Feel free to open issues or pull requests to propose new features, improvements, or additional numerical methods.
 
