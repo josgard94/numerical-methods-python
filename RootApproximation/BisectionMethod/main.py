@@ -1,5 +1,5 @@
 from cmath import sqrt
-from bisecction_class import BisectionMethod
+from bisection_class import BisectionMethod
 
 if __name__ == "__main__":
     import math
