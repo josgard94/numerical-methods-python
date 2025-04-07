@@ -28,6 +28,7 @@ Each algorithm will be organized in its own module and accompanied by:
 |-------------------|----------------------|----------|
 | Root Finding      | Bisection Method     | ✅ Ready |
 | Root Finding      | Newton-Raphson       | ✅ Ready |
+| Root Finding      | Secant-Method        | ✅ Ready |
 | Interpolation     | Coming Soon          | 🕐       |
 | Integration       | Coming Soon          | 🕐       |
 | Linear Systems    | Coming Soon          | 🕐       |
@@ -47,6 +48,12 @@ numerical-methods-python/
 ├── ├── NewtonRapson
 │       ├── newtonraphson_class.py
 │       ├── derivation_class.py
+│       ├── main.py
+│       ├── requirements.txt
+├── ├── SecantMethod
+│       ├── plotter.py
+│       ├── secant_class.py
+|       ├── function_class.py
 │       ├── main.py
 │       ├── requirements.txt
 │   ├── .gitignore
