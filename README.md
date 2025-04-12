@@ -30,6 +30,7 @@ Each algorithm will be organized in its own module and accompanied by:
 | Root Finding      | Newton-Raphson       | ✅ Ready |
 | Root Finding      | Secant-Method        | ✅ Ready |
 | Interpolation     | Coming Soon          | 🕐       |
+| Integration       | Simpson 1/3 Method   | ✅ Ready |
 | Integration       | Coming Soon          | 🕐       |
 | Linear Systems    | Coming Soon          | 🕐       |
 | Differentiation   | Coming Soon          | 🕐       |
@@ -54,6 +55,14 @@ numerical-methods-python/
 │       ├── plotter.py
 │       ├── secant_class.py
 |       ├── function_class.py
+│       ├── main.py
+│       ├── requirements.txt
+│   ├── .gitignore
+├── NumericalIntegration/
+├── ├── SimpsonMethod
+│       ├── simpson_class.py
+│       ├── plot_class.py
+│       ├── utils.py
 │       ├── main.py
 │       ├── requirements.txt
 │   ├── .gitignore
